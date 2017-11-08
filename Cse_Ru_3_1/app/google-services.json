@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "788411878303",
+    "firebase_url": "https://soy-sunrise-166815.firebaseio.com",
+    "project_id": "soy-sunrise-166815",
+    "storage_bucket": "soy-sunrise-166815.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788411878303:android:84f3c9aa5e45b712",
+        "android_client_info": {
+          "package_name": "com.example.moonc.cse_ru_3_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788411878303-av8ur9s8b1h88s9c89i27gi424fa305o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moonc.cse_ru_3_1",
+            "certificate_hash": "b3bc63b6121d004ee646d909fca40815ad263904"
+          }
+        },
+        {
+          "client_id": "788411878303-chn3ika7ki9og0mutd21e235sqqd0s8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg6ARchnL2rRQreICXcJl_SLgbgvqe7es"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788411878303-chn3ika7ki9og0mutd21e235sqqd0s8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

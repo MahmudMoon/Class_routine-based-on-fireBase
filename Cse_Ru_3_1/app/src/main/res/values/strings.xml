@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Cse_Ru_3_2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="minHeight">40dp</string>
+    <string name="Name">Mustofa Mahmud</string>
+    <string name="email">mooncseru14@gmail.com</string>
+    <string name="title_activity_edit__data">Edit_Data</string>
+    <string name="su">Sunday</string>
+    <string name="mo">Monday</string>
+    <string name="tu">Tuesday</string>
+    <string name="we">Wednesday</string>
+    <string name="th">Thursday</string>
+    <string name="fileName">/classRoutine</string>
+    <string name="date">Date</string>
+    <string name="xm">Xm</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.moonc.cse_ru_3_1.CT_update">
+
+
+    <Button
+        android:layout_marginTop="34dp"
+        android:id="@+id/edit_ct_time"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="center"
+        android:onClick="clicked"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#000"
+     />
+
+
+    <EditText
+        android:gravity="center"
+        android:layout_below="@+id/edit_ct_time"
+        android:id="@+id/edit_ct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="@string/xm"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>
+

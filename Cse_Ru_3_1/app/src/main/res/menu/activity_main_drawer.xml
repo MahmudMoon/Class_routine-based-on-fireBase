@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/saturday"
+            android:title="Saturday" />
+        <item
+            android:id="@+id/sunday"
+            android:title="Sunday" />
+        <item
+            android:id="@+id/monday"
+            android:title="Monday" />
+        <item
+            android:id="@+id/tuesday"
+            android:title="Tuesday" />
+        <item
+            android:id="@+id/wednesday"
+            android:title="Wednesday" />
+        <item
+            android:id="@+id/thursday"
+            android:title="Thursday" />
+        <item
+            android:id="@+id/friday"
+            android:title="Friday" />
+
+    </group>
+
+    <item android:title="Extra">
+        <menu>
+            <item
+                android:id="@+id/ct_reminder"
+                android:title="CT Reminder" />
+            <item
+                android:id="@+id/notificatin"
+                android:title="Notifications"
+                ></item>
+
+        </menu>
+    </item>
+
+</menu>

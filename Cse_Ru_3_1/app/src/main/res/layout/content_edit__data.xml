@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.moonc.cse_ru_3_1.Edit_Data"
+    tools:showIn="@layout/activity_edit__data">
+
+    <EditText
+        android:id="@+id/at_class_time"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Time"
+        android:layout_marginTop="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        style="@style/EditText_View_for_time"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/ast_class"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Class"
+        android:layout_alignBaseline="@+id/at_class_time"
+        android:layout_alignBottom="@+id/at_class_time"
+        android:layout_toEndOf="@+id/at_class_time"
+        style="@style/EditText_View_for_class"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/at_class_time" />
+
+    <EditText
+        android:id="@+id/bt_class_time"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Time"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/at_class_time"
+        style="@style/EditText_View_for_time"/>
+
+    <EditText
+        android:id="@+id/bst_class"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Class"
+        android:layout_alignBaseline="@+id/bt_class_time"
+        android:layout_alignBottom="@+id/bt_class_time"
+        android:layout_toEndOf="@+id/bt_class_time"
+        style="@style/EditText_View_for_class"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/bt_class_time" />
+
+    <EditText
+        android:id="@+id/ct_class_time"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Time"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/bt_class_time"
+        style="@style/EditText_View_for_time"/>
+
+    <EditText
+        android:id="@+id/cst_class"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Class"
+        android:layout_alignBaseline="@+id/ct_class_time"
+        android:layout_alignBottom="@+id/ct_class_time"
+        android:layout_toEndOf="@+id/ct_class_time"
+        style="@style/EditText_View_for_class"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/ct_class_time" />
+
+    <EditText
+        android:id="@+id/dt_class_time"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Time"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/ct_class_time"
+        style="@style/EditText_View_for_time"/>
+
+    <EditText
+        android:id="@+id/dst_class"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Class"
+        android:layout_alignBaseline="@+id/dt_class_time"
+        android:layout_alignBottom="@+id/dt_class_time"
+        android:layout_toEndOf="@+id/dt_class_time"
+        style="@style/EditText_View_for_class"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/dt_class_time" />
+
+
+    <EditText
+        android:id="@+id/et_class_time"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Time"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/dt_class_time"
+        style="@style/EditText_View_for_time"/>
+
+    <EditText
+        android:id="@+id/est_class"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Class"
+        android:layout_alignBaseline="@+id/et_class_time"
+        android:layout_alignBottom="@+id/et_class_time"
+        android:layout_toEndOf="@+id/et_class_time"
+        style="@style/EditText_View_for_class"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/et_class_time" />
+
+</RelativeLayout>
